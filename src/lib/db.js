@@ -1,4 +1,4 @@
-import supabase from '$lib/supabase/supabase';
+import supabase from '$lib/supabase';
 import { json, error } from '@sveltejs/kit';
 
 // Helper function to GET data from supabase
