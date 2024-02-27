@@ -1,8 +1,8 @@
-import supabase from '$lib/supabase';
+// import supabase from '$lib/supabase';
 import { json, error } from '@sveltejs/kit';
 
 // Helper function to GET data from supabase
-export const getRecords = async (table, url) => {
+/* export const getRecords = async (table, url) => {
 	const columns = url.searchParams.get('columns') ?? '*';
 
 	const queryDB = async () => {
@@ -41,3 +41,4 @@ export const insertRecord = async (table, insertArray) => {
 	const { data, error } = await supabase.from(table).insert(insertArray).select();
 	return { data, error };
 };
+*/
