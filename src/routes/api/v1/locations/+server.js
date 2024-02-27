@@ -1,5 +1,5 @@
 import { json, error } from '@sveltejs/kit';
-import { getRecords, insertRecord } from '$lib/db.js';
+/* import { getRecords, insertRecord } from '$lib/db.js';
 
 const db = 'trips';
 
@@ -19,3 +19,4 @@ export async function PUT(event) {
 
 	return json(data);
 }
+*/
